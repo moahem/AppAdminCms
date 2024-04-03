@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "student_materials",
+  "info": {
+    "singularName": "student-material",
+    "pluralName": "student-materials",
+    "displayName": "Student_material"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "materialName": {
+      "type": "string"
+    },
+    "materialDesc": {
+      "type": "text"
+    },
+    "Material_Image_Url": {
+      "type": "string"
+    },
+    "material_dr_name": {
+      "type": "string"
+    },
+    "material_dr_image": {
+      "type": "string"
+    },
+    "material_dr_sochil_Media": {
+      "type": "string"
+    }
+  }
+}

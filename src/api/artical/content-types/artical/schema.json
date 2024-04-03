@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articals",
+  "info": {
+    "singularName": "artical",
+    "pluralName": "articals",
+    "displayName": "artical"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "artical_title": {
+      "type": "string"
+    },
+    "artical_desc": {
+      "type": "text"
+    },
+    "publeshedDate": {
+      "type": "datetime"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "student_level": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::student-level.student-level",
+      "inversedBy": "StudentRelation"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "student_levels",
+  "info": {
+    "singularName": "student-level",
+    "pluralName": "student-levels",
+    "displayName": "studentLevel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "level": {
+      "type": "integer",
+      "min": 1,
+      "max": 4
+    },
+    "StudentRelation": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::artical.artical",
+      "mappedBy": "student_level"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_a_mohs",
+  "info": {
+    "displayName": "mohs",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "isActive": {
+      "type": "boolean"
+    },
+    "email": {
+      "type": "email"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "date": {
+      "type": "date"
+    },
+    "num": {
+      "type": "integer",
+      "min": 0,
+      "max": 1000,
+      "unique": true,
+      "required": false
+    }
+  }
+}

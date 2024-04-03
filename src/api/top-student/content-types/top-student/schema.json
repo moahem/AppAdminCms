@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "top_students",
+  "info": {
+    "singularName": "top-student",
+    "pluralName": "top-students",
+    "displayName": "top_student"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "level": {
+      "type": "integer"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "student_Informaition": {
+      "type": "text"
+    }
+  }
+}
