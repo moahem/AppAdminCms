@@ -12,6 +12,7 @@
   "dependencies": {
     "@exfabrica/strapi-plugin-awesome-help": "^1.0.8",
     "@strapi/plugin-cloud": "4.21.1",
+    "@strapi/plugin-documentation": "^4.22.0",
     "@strapi/plugin-i18n": "4.21.1",
     "@strapi/plugin-users-permissions": "4.21.1",
     "@strapi/strapi": "4.21.1",
